@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/bg_e"
+    tools:context=".Activity.ItemviewActivity">
+
+    <RelativeLayout
+     
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:text="Choose Customer"
+            android:paddingLeft="20dp"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            android:textColor="@android:color/black"
+            android:gravity="left|center"
+
+            />
+
+        <RelativeLayout
+            android:layout_marginTop="50dp"
+            android:id="@+id/nt_rc1"
+            android:visibility="visible"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+
+           >
+
+            <include  layout="@layout/about_xclayout" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/nt_rel"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/nt_rc1"
+            android:layout_marginBottom="60dp"
+         >
+
+
+            <!--<SearchView-->
+                <!--android:id="@+id/nt_src"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_marginBottom="3dp"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginRight="100dp"-->
+                <!--android:layout_marginTop="3dp"-->
+                <!--android:background="@android:color/white"-->
+                <!--android:visibility="invisible"></SearchView>-->
+
+            <!--<Button-->
+                <!--android:id="@+id/nt_srchbtn"-->
+                <!--android:layout_width="75dp"-->
+                <!--android:layout_height="45dp"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_margin="5dp"-->
+                <!--android:drawablePadding="5dp"-->
+                <!--android:background="@android:color/transparent"-->
+                <!--android:drawableRight="@drawable/search"-->
+                <!--android:textColor="@android:color/white"-->
+                <!--android:textSize="16sp"-->
+                <!--android:visibility="visible" />-->
+
+
+
+
+          
+
+
+           
+
+
+
+            <!--<include-->
+                <!--android:id="@+id/nt_sno"-->
+                <!---->
+                <!---->
+                <!--layout="@layout/detail"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="35dp"-->
+               <!--/>-->
+
+            <TextView
+                android:id="@+id/nt_sno"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:text="Choose Items "
+                android:paddingLeft="20dp"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                android:textColor="@android:color/black"
+                android:gravity="left|center"
+
+                />
+
+            <SearchView
+                android:id="@+id/newsearch"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/nt_sno"
+               android:layout_margin="5dp"
+                android:background="@android:color/white"
+                android:visibility="visible"></SearchView>
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/nt_tdt"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/newsearch"
+                android:layout_margin="5dp"
+                 />
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/bg_eo"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/cnle"
+                android:layout_width="250dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/ripple"
+                android:text="@string/cnl"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+
+            <Button
+                android:id="@+id/_newsub"
+                android:layout_width="250dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/ripple"
+                android:text="View Items "
+                android:textColor="@color/bl"
+                android:textSize="24sp" />
+            <Button
+                android:id="@+id/nt_amnd"
+                android:layout_width="140dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/ripple"
+                android:text="NEW ITEM"
+                android:visibility="gone"
+                android:textColor="@color/bg_red"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+    
+
+    <!--</ScrollView>-->
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/nt_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1090dp"
+        android:layout_marginTop="170dp"
+        android:src="@android:drawable/ic_menu_save"
+        android:visibility="gone" />
+
+
+</android.support.design.widget.CoordinatorLayout>

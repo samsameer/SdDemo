@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:float="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/ln1"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+
+        android:orientation="horizontal"
+        android:weightSum="1.2">
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.57"
+            float:fletPadding="5dp">
+
+        <EditText
+            android:id="@+id/ext1"
+            android:layout_height="fill_parent"
+            style="@style/left_menu"
+            android:focusable="false"
+            android:hint="@string/custno" />
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+
+
+        <!--<TextView-->
+           <!-- -->
+            <!--style="@style/left_menu"-->
+            <!--android:layout_weight="0.58"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:text=""-->
+            <!--android:textSize="20sp"-->
+
+            <!--/>-->
+
+        <Spinner
+            android:id="@+id/extrrr"
+            style="@style/left_menu"
+            android:layout_weight="0.58"
+            android:textColor="@android:color/black"
+            android:text=""
+            android:visibility="gone"
+            android:textSize="16sp"
+
+            />
+
+
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.67"
+            android:visibility="gone"
+            float:fletPadding="5dp">
+        <EditText
+            android:id="@+id/ext2"
+            style="@style/left_menu"
+
+            android:hint="@string/term" />
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.65"
+            float:fletPadding="5dp">
+        <EditText
+            android:id="@+id/ext3"
+            style="@style/left_menu"
+            android:focusable="false"
+            android:layout_weight="0.68"
+            android:hint="@string/slm" />
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+        <!--<TextView-->
+          <!-- -->
+            <!--style="@style/left_menu"-->
+            <!--android:text=""-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:textSize="18sp"-->
+            <!--android:layout_weight="0.6" />-->
+
+        <!--<TextView-->
+        <!--style="@style/left_menu"-->
+        <!--android:text="@string/slsOrd"-->
+        <!--android:layout_weight="0.5"-->
+        <!--/>-->
+
+        <!--<TextView-->
+        <!--style="@style/left_menu"-->
+        <!--android:text="@string/nm"-->
+        <!--android:layout_weight="0.5"-->
+        <!--/>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln2"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/ln1"
+        android:orientation="horizontal"
+        android:weightSum="1.2">
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.75"
+            float:fletPadding="5dp">
+        <EditText
+            style="@style/left_menu"
+            android:layout_margin="1dp"
+            android:id="@+id/ext4"
+            android:focusable="false"
+            android:hint="@string/nm" />
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.45"
+            float:fletPadding="5dp">
+        <EditText
+            android:id="@+id/ext5"
+            style="@style/left_menu"
+            android:imeOptions="actionDone"
+            android:focusable="false"
+            android:hint="@string/shipad" />
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+        <!--<TextView-->
+         <!-- -->
+            <!--style="@style/left_menu"-->
+            <!--android:layout_weight="0.37"-->
+            <!--android:singleLine="false"-->
+            <!--android:gravity="left|center"-->
+            <!--android:text=""-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:textSize="18sp" />-->
+
+        <!--<TextView-->
+        <!--style="@style/left_menu"-->
+        <!--android:text="@string/slsOrd"-->
+        <!--android:layout_weight="0.5"-->
+        <!--/>-->
+
+        <!--<TextView-->
+        <!--style="@style/left_menu"-->
+        <!--android:text="@string/nm"-->
+        <!--android:layout_weight="0.5"-->
+        <!--/>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/ln2"
+        android:orientation="horizontal"
+        android:weightSum="1.1">
+
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.46"
+            float:fletPadding="5dp">
+
+        <EditText
+            android:id="@+id/rmtk"
+            style="@style/left_menu"
+            android:hint="@string/remk"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+        <!--<TextView-->
+        <!--style="@style/left_menu"-->
+        <!--android:textColor="@color/material_blue_grey_800"-->
+        <!--android:text="@string/term"-->
+        <!--android:layout_weight="0.75"-->
+        <!--/>-->
+
+        <!--<TextView-->
+        <!--style="@style/left_menu"-->
+        <!--android:text="@string/nm"-->
+        <!--android:layout_weight="0.65"-->
+        <!--/>-->
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.66"
+            android:visibility="visible"
+            float:fletPadding="5dp">
+        <EditText
+            android:id="@+id/ext6"
+            style="@style/left_menu"
+            android:text="-"
+            android:hint="@string/term" />
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+
+        <!--<TextView-->
+        <!--style="@style/left_menu"-->
+        <!--android:text="@string/slsOrd"-->
+        <!--android:layout_weight="0.5"-->
+        <!--/>-->
+
+        <!--<TextView-->
+        <!--style="@style/left_menu"-->
+        <!--android:text="@string/nm"-->
+        <!--android:layout_weight="0.5"-->
+        <!--/>-->
+
+    </LinearLayout>
+</RelativeLayout>

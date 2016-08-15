@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="5dp">
+    <!-- A CardView that contains a TextView -->
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="2dp"
+        android:clickable="true"
+        android:focusable="true"
+        card_view:cardBackgroundColor="@android:color/white"
+        android:focusableInTouchMode="true">
+
+
+
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="fill_parent"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:paddingLeft="30dp"
+            android:layout_marginRight="70dp"
+            android:gravity="left|center"
+            android:drawableLeft="@drawable/bc"
+            android:drawablePadding="22dp"
+            android:textStyle="bold"
+            android:layout_height="55dp" />
+
+
+        <ImageView
+            android:id="@+id/delItm"
+            android:focusable="false"
+            android:clickable="false"
+            android:background="@color/wht"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="05dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/dfd" />
+
+        <LinearLayout
+            android:id="@+id/lincl"
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="55dp"
+            android:paddingLeft="30dp"
+            android:background="@drawable/rpbg"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <CheckedTextView
+                android:id="@+id/txt1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.49"
+                android:checked="false"
+                android:gravity="left|center"
+                android:singleLine="true"
+                android:padding="5dp"
+                android:drawableLeft="@drawable/poc"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/nameR"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.42"
+                android:gravity="left|center"
+
+                android:singleLine="false"
+                android:text=""
+                android:textColor="#6D6D6D"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.53"
+                android:gravity="center"
+                android:drawableLeft="@drawable/cal"
+                android:text="23/3/3"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+
+
+                />
+
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="2dp"
+                android:layout_weight="0.55"
+                android:gravity="center"
+                android:padding="2dp"
+               android:textSize="16sp"
+                android:text="NEW"
+                android:textStyle="bold"
+                android:textColor="@color/bg_screen1"
+                android:visibility="visible" />
+
+
+        </LinearLayout>
+
+
+
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

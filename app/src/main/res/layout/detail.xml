@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/liin1"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/toolbar_actionbar"
+        android:background="@color/bg_red"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            style="@style/tst"
+           
+            android:layout_weight="0.56"
+            android:text="S No"
+            />
+        <TextView
+            style="@style/tst"
+            android:text="QTY"
+           
+            android:layout_weight="0.53"
+            />
+
+        <TextView
+           
+            style="@style/tst"
+            android:layout_weight="0.51"
+            android:text="ITEM NO"
+            />
+        <TextView
+           
+            style="@style/tst"
+            android:layout_weight="0.39"
+            android:text="ITEM DESC"
+            />
+
+
+
+        <TextView
+           
+            style="@style/tst"
+            android:text="DISCOUNT"
+            android:layout_weight="0.51"
+            />
+
+        <TextView
+
+            style="@style/tst"
+            android:text="price"
+            android:layout_weight="0.51"
+            />
+
+    </LinearLayout>
+</LinearLayout>

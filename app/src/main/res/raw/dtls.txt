@@ -1,0 +1,209 @@
+﻿[{
+
+	"s_no": "1",
+	"item_id": "50",
+	"item_no": "BVBVSY0012",
+	"item_desc": "SYRUP - ESPRESSO SHOTS",
+	"qty_in": "0.000000",
+	"ref_qty_in": "1500.000000",
+	"uom": "ML",
+		"prod_date": "$ 15.00",
+	"serial_lot_no": "",
+	"from_wh_id": "10",
+	"to_wh_id": "11"
+}, {
+
+	"s_no": "2",
+	"item_id": "218",
+	"item_no": "BVJUJU0011",
+	"item_desc": "JUICE - PEEL FRESH YUZU (MARIGOLD)",
+	"qty_in": "0.000000",
+	"ref_qty_in": "1000.000000",
+	"uom": "ML",
+		"prod_date": "$ 35.00",
+	"serial_lot_no": "",
+	"from_wh_id": "10",
+	"to_wh_id": "11"
+}, {
+
+	"s_no": "3",
+	"item_id": "575",
+	"item_no": "FDDRFL0003",
+	"item_desc": "FLOUR - PLAIN (PKT/1KG)",
+	"qty_in": "0.000000",
+	"ref_qty_in": "1000.000000",
+	"uom": "G",
+		"prod_date": "$ 45.00",
+	"serial_lot_no": "",
+	"from_wh_id": "10",
+	"to_wh_id": "11"
+}, {
+
+	"s_no": "4",
+	"item_id": "630",
+	"item_no": "FDDROL0004",
+	"item_desc": "TRUFFLES (WHITE) OIL",
+	"qty_in": "0.000000",
+	"ref_qty_in": "250.000000",
+	"uom": "ML",
+		"prod_date": "$ 15.50",
+	"serial_lot_no": "",
+	"from_wh_id": "10",
+	"to_wh_id": "11"
+}, {
+
+	"s_no": "5",
+	"item_id": "676",
+	"item_no": "FDDRSP0007",
+	"item_desc": "SAUCE - TABASCO (TAB U.S.A.)",
+	"qty_in": "0.000000",
+	"ref_qty_in": "236.000000",
+	"uom": "ML",
+		"prod_date": "$ 40.00",
+	"serial_lot_no": "",
+	"from_wh_id": "10",
+	"to_wh_id": "11"
+}, {
+
+	"s_no": "6",
+	"item_id": "852",
+	"item_no": "FDDRMC0048",
+	"item_desc": "CHESTNUT ROASTED",
+	"qty_in": "0.000000",
+	"ref_qty_in": "150.000000",
+	"uom": "G",
+		"prod_date": "$ 55.50",
+	"serial_lot_no": "",
+	"from_wh_id": "10",
+	"to_wh_id": "11"
+}, {
+
+	"s_no": "7",
+	"item_id": "1027",
+	"item_no": "FDFVFR0010",
+	"item_desc": "RASPBERRY (PUNNET)",
+	"qty_in": "0.000000",
+	"ref_qty_in": "170.000000",
+	"uom": "G",
+	"prod_date": "$ 15.00",
+	"serial_lot_no": "",
+	"from_wh_id": "10",
+	"to_wh_id": "11"
+}, {
+
+	"s_no": "8",
+	"item_id": "1091",
+	"item_no": "FDFVVE0009",
+	"item_desc": "CELERY STICK",
+	"qty_in": "0.000000",
+	"ref_qty_in": "500.000000",
+	"uom": "G",
+	"prod_date": "$ 27.00",
+	"serial_lot_no": "",
+	"from_wh_id": "10",
+	"to_wh_id": "11"
+}, {
+
+	"s_no": "9",
+	"item_id": "1106",
+	"item_no": "FDFVVE0024",
+	"item_desc": "POTATO - USA 110",
+	"qty_in": "0.000000",
+	"ref_qty_in": "1000.000000",
+	"uom": "G",
+		"prod_date": "$ 65.00",
+	"serial_lot_no": "",
+	"from_wh_id": "10",
+	"to_wh_id": "11"
+}, {
+
+	"s_no": "10",
+	"item_id": "1117",
+	"item_no": "FDFVVE0035",
+	"item_desc": "LETTUCE FRILLICE (GREEN CORAL)",
+	"qty_in": "0.000000",
+	"ref_qty_in": "200.000000",
+	"uom": "G",
+		"prod_date": "$ 15.00",
+	"serial_lot_no": "",
+	"from_wh_id": "10",
+	"to_wh_id": "11"
+}, {
+
+	"s_no": "11",
+	"item_id": "1118",
+	"item_no": "FDFVVE0036",
+	"item_desc": "MUSHROOM SHIMEIJI",
+	"qty_in": "0.000000",
+	"ref_qty_in": "300.000000",
+	"uom": "G",
+		"prod_date": "$ 15.00",
+	"serial_lot_no": "",
+	"from_wh_id": "10",
+	"to_wh_id": "11"
+}, {
+
+	"s_no": "12",
+	"item_id": "1122",
+	"item_no": "FDFVVE0040",
+	"item_desc": "RADISH RED HOL",
+	"qty_in": "0.000000",
+	"ref_qty_in": "125.000000",
+	"uom": "G",
+	"prod_date": "$ 15.00",
+	"serial_lot_no": "",
+	"from_wh_id": "10",
+	"to_wh_id": "11"
+}, {
+
+	"s_no": "13",
+	"item_id": "1135",
+	"item_no": "FDFVVE0053",
+	"item_desc": "MUSHROOM KING OYSTER",
+	"qty_in": "0.000000",
+	"ref_qty_in": "400.000000",
+	"uom": "G",
+		"prod_date": "$ 55.00",
+	"serial_lot_no": "",
+	"from_wh_id": "10",
+	"to_wh_id": "11"
+}, {
+
+	"s_no": "14",
+	"item_id": "1369",
+	"item_no": "FDMDB10001",
+	"item_desc": "BUTTER - UNSALTED",
+	"qty_in": "0.000000",
+	"ref_qty_in": "1250.000000",
+	"uom": "G",
+		"prod_date": "$ 10.00",
+	"serial_lot_no": "",
+	"from_wh_id": "10",
+	"to_wh_id": "11"
+}, {
+
+	"s_no": "15",
+	"item_id": "1915",
+	"item_no": "GSNFSS0002",
+	"item_desc": "CLING FILM 300MM X 300MM",
+	"qty_in": "0.000000",
+	"ref_qty_in": "1.000000",
+	"uom": "ROLL",
+		"prod_date": "$ 16.00",
+	"serial_lot_no": "",
+	"from_wh_id": "10",
+	"to_wh_id": "11"
+}, {
+
+	"s_no": "16",
+	"item_id": "1964",
+	"item_no": "GSNFSS0051",
+	"item_desc": "HAND GLOVE - BLUE VINYL (NON-POWDERED) (SIZE L)",
+	"qty_in": "0.000000",
+	"ref_qty_in": "400.000000",
+	"uom": "PC",
+		"prod_date": "$ 1.00",
+	"serial_lot_no": "",
+	"from_wh_id": "10",
+	"to_wh_id": "11"
+} ]

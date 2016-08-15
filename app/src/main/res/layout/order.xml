@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/liin1"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/toolbar_actionbar"
+        android:background="@color/bg_red"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <TextView
+            style="@style/tst"
+            android:layout_weight="0.51"
+            android:text="ORDER NO"
+            />
+        <TextView
+            style="@style/tst"
+            android:layout_weight="0.38"
+            android:text="CUSTOMER NAME"
+            />
+
+
+
+        <TextView
+            style="@style/tst"
+            android:layout_weight="0.55"
+            android:text="DATE"
+            />
+
+
+
+        <TextView
+            style="@style/tst"
+            android:text="STATUS"
+            android:layout_weight="0.55"
+            />
+    </LinearLayout>
+</LinearLayout>

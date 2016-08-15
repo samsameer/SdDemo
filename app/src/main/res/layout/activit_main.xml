@@ -1,0 +1,152 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:float="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_eo"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+
+        <!--<Button-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:text="Force Crash!"-->
+        <!--android:onClick="forceCrash"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_centerHorizontal="true" />-->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="left|center"
+            android:paddingLeft="12dp"
+            android:text="@string/server"
+
+            android:textColor="@color/bg_red"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edit_1"
+                style="@style/scong_page"
+                android:hint="@string/host" />
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            float:fletPaddingBottom="10dp">
+
+            <EditText
+                android:id="@+id/edit_2"
+                style="@style/scong_page"
+                android:hint="@string/port"
+                android:inputType="number" />
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+        <!-- add some padding -->
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            float:fletPadding="10dp">
+
+            <EditText
+                android:id="@+id/edit_3"
+                style="@style/scong_page"
+                android:hint="@string/suname" />
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+        <!-- password input -->
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            float:fletPaddingBottom="10dp">
+
+            <EditText
+                android:id="@+id/edit_4"
+                style="@style/scong_page"
+                android:hint="@string/spaswd"
+                android:inputType="textPassword" />
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+        <!-- change color of hint text-->
+
+
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            style="@style/mwparent"
+            android:visibility="gone"
+            float:fletPaddingBottom="10dp">
+
+            <EditText
+                android:id="@+id/edit_5"
+                style="@style/scong_page"
+                android:hint="@string/rcode" />
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+
+        <!-- change color of hint text-->
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            float:fletPaddingBottom="10dp">
+
+            <EditText
+                android:id="@+id/edit_6"
+                style="@style/scong_page"
+                android:hint="@string/ccode" />
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            style="@style/mwparent"
+            android:visibility="gone"
+            float:fletPaddingBottom="10dp">
+
+            <EditText
+                android:id="@+id/edit_7"
+                style="@style/scong_page"
+                android:hint="@string/ocode" />
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/lin2"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/white"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/progressBarCircularIndeterminate"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.6"
+                android:padding="0dp" />
+
+            <Button
+                android:id="@+id/cancel"
+                style="@style/btn"
+                android:layout_weight="0.7"
+                android:text="Cancel" />
+
+            <Button
+                android:id="@+id/connect"
+                style="@style/btn"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.7"
+                android:text="CONNECT" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

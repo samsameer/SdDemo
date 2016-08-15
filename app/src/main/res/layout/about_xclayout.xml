@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <LinearLayout
+        android:id="@+id/td_ln1"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:weightSum="2.5">
+
+        <TextView
+            style="@style/left_menu"
+            android:layout_weight="0.67"
+            android:text="@string/custno" />
+
+
+
+        <EditText
+
+            android:id="@+id/td_txt1"
+            style="@style/left_menu"
+            android:layout_weight="0.58"
+            android:text="" />
+        <Spinner
+            android:id="@+id/td_txtrrr"
+            style="@style/left_menu"
+            android:layout_weight="0.58"
+           android:textColor="@color/bg"
+            android:text=""
+
+            android:visibility="gone"
+            android:textSize="20sp"
+
+            />
+
+
+
+        <TextView
+            style="@style/left_menu"
+            android:layout_weight="0.68"
+            android:text="@string/slm" />
+
+        <EditText
+            android:id="@+id/td_txt3"
+            style="@style/left_menu"
+           
+            android:text=""
+           android:textColor="@color/bg_screen1"
+            android:textSize="18sp"
+            android:layout_weight="0.6" />
+
+
+        <TextView
+            style="@style/left_menu"
+            android:visibility="gone"
+            android:layout_weight="0.7"
+            android:text="@string/term" />
+
+        <EditText
+            android:visibility="gone"
+            android:id="@+id/td_txt2"
+            style="@style/left_menu"
+            android:layout_weight="0.65"
+            android:text=""
+
+            android:textColor="@color/bg_screen1"
+            android:textSize="20sp" />
+
+        <!--<TextView-->
+        <!--style="@style/left_menu"-->
+        <!--android:text="@string/slsOrd"-->
+        <!--android:layout_weight="0.5"-->
+        <!--/>-->
+
+        <!--<TextView-->
+        <!--style="@style/left_menu"-->
+        <!--android:text="@string/nm"-->
+        <!--android:layout_weight="0.5"-->
+        <!--/>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/td_ln2"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/td_ln1"
+
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            style="@style/left_menu"
+            android:layout_weight="0.62"
+            android:layout_margin="1dp"
+            android:text="@string/nm" />
+
+        <EditText
+            android:id="@+id/td_txt4"
+            style="@style/left_menu"
+            android:layout_weight="0.41"
+            android:singleLine="false"
+            android:text=""
+           android:textStyle="bold"
+           android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+
+
+        <!--<TextView-->
+        <!--style="@style/left_menu"-->
+        <!--android:textColor="@color/material_blue_grey_800"-->
+        <!--android:text="@string/term"-->
+        <!--android:layout_weight="0.75"-->
+        <!--/>-->
+
+        <!--<TextView-->
+        <!--style="@style/left_menu"-->
+        <!--android:text="@string/nm"-->
+        <!--android:layout_weight="0.65"-->
+        <!--/>-->
+
+        <TextView
+            style="@style/left_menu"
+            android:layout_weight="0.57"
+            android:text="@string/shipad" />
+
+        <EditText
+            android:id="@+id/td_txt5"
+            style="@style/left_menu"
+            android:layout_weight="0.39"
+            android:singleLine="false"
+            android:gravity="left|center"
+            android:text=""
+           
+           android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <!--<TextView-->
+        <!--style="@style/left_menu"-->
+        <!--android:text="@string/slsOrd"-->
+        <!--android:layout_weight="0.5"-->
+        <!--/>-->
+
+        <!--<TextView-->
+        <!--style="@style/left_menu"-->
+        <!--android:text="@string/nm"-->
+        <!--android:layout_weight="0.5"-->
+        <!--/>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/td_ln2"
+
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            style="@style/left_menu"
+            android:layout_weight="0.6"
+            android:text="@string/remk" />
+
+        <EditText
+            style="@style/left_menu"
+            android:layout_weight="0.3"
+            android:hint="@string/remk"
+           android:textColor="@color/bg_screen1"
+            android:textSize="20sp" />
+        <!--<TextView-->
+        <!--style="@style/left_menu"-->
+        <!--android:textColor="@color/material_blue_grey_800"-->
+        <!--android:text="@string/term"-->
+        <!--android:layout_weight="0.75"-->
+        <!--/>-->
+
+        <!--<TextView-->
+        <!--style="@style/left_menu"-->
+        <!--android:text="@string/nm"-->
+        <!--android:layout_weight="0.65"-->
+        <!--/>-->
+
+        <TextView
+            style="@style/left_menu"
+            android:layout_weight="0.56"
+            android:visibility="invisible"
+            android:text="@string/slsOrd" />
+
+        <EditText
+            android:id="@+id/td_txt6"
+            style="@style/left_menu"
+            android:layout_weight="0.53"
+            android:singleLine="false"
+            android:text=""
+            android:textStyle="bold"
+           android:visibility="invisible"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="23sp" />
+
+        <!--<TextView-->
+        <!--style="@style/left_menu"-->
+        <!--android:text="@string/slsOrd"-->
+        <!--android:layout_weight="0.5"-->
+        <!--/>-->
+
+        <!--<TextView-->
+        <!--style="@style/left_menu"-->
+        <!--android:text="@string/nm"-->
+        <!--android:layout_weight="0.5"-->
+        <!--/>-->
+
+    </LinearLayout>
+</RelativeLayout>

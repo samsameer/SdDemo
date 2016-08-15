@@ -1,0 +1,75 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:typeface">serif</item>
+    </style>
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="tst">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+
+    <style name="scong_page">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@android:color/black</item>
+
+    </style>
+    <style name="mwparent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="btn">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">fill_parent</item>
+    <item name="android:layout_margin">4dp</item>
+    <item name="android:fontFamily">sans-serif-medium</item>
+    <item name="android:textSize">16sp</item>
+    <item name="android:textColor">@color/bl</item>
+    </style>
+
+    <style name="left_menu">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/black</item>
+
+    </style>
+
+</resources>

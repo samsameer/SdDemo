@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/cnerel"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        android:layout_margin="5dp"
+        android:background="@color/bg_e">
+
+<TextView
+    android:id="@+id/cifc"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:textColor="@android:color/black"
+    android:textSize="20sp"
+    android:gravity="left|center"
+    android:paddingLeft="50dp"
+    android:text="Choose Customer"/>
+        <SearchView
+            android:id="@+id/cnesrc"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/cifc"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="100dp"
+           
+            android:background="@android:color/white"
+            android:visibility="visible"></SearchView>
+
+
+        <Button
+            android:id="@+id/cnecls"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_below="@+id/cifc"
+            android:layout_alignParentRight="true"
+            android:layout_margin="3dp"
+            android:background="@drawable/ripplet"
+            android:drawableLeft="@android:drawable/ic_menu_close_clear_cancel"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:visibility="visible" />
+
+        <!--<include-->
+            <!--android:id="@+id/cnesno"-->
+            <!--layout="@layout/detail"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:layout_below="@+id/cnesrc" />-->
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/cnetdt"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/cnesrc"
+            android:layout_margin="5dp"
+            android:background="@color/bg_e" />
+
+    </RelativeLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:background="@android:color/white"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<Button-->
+            <!--android:layout_width="140dp"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:background="@drawable/ripple"-->
+            <!--android:text="@string/cnl"-->
+            <!--android:textColor="@color/bg_red"-->
+            <!--android:textSize="18sp" />-->
+
+
+        <!--<Button-->
+            <!--android:id="@+id/cnent_amnd"-->
+            <!--android:layout_width="140dp"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:background="@drawable/ripple"-->
+            <!--android:text="ADD ITEM"-->
+            <!--android:textColor="@color/bg_red"-->
+            <!--android:textSize="18sp"-->
+            <!--android:visibility="visible" />-->
+
+    <!--</LinearLayout>-->
+
+</RelativeLayout>

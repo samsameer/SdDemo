@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/_dtlview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_e"
+    android:visibility="visible">
+
+    <RelativeLayout
+        android:id="@+id/rc1"
+        android:layout_width="fill_parent"
+        android:layout_height="230dp">
+
+        <include layout="@layout/about_layout" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rel"
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/rc1"
+        android:layout_marginBottom="5dp">
+
+
+        <!--<Button-->
+        <!--android:id="@+id/srchbtn"-->
+        <!--android:layout_width="75dp"-->
+        <!--android:layout_height="45dp"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:background="@android:color/transparent"-->
+        <!--android:drawablePadding="5dp"-->
+        <!--android:drawableRight="@drawable/search"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:textSize="16sp"-->
+        <!--android:visibility="visible" />-->
+
+
+        <Button
+            android:id="@+id/cls"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="3dp"
+            android:background="@drawable/ripplet"
+            android:drawableLeft="@android:drawable/ic_menu_close_clear_cancel"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/fab"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom|center"-->
+        <!--android:src="@android:drawable/arrow_up_float"-->
+        <!--android:visibility="gone" />-->
+
+
+        <!--<Button-->
+        <!--android:id="@+id/new_item"-->
+        <!--style="?android:attr/buttonStyleSmall"-->
+        <!--android:layout_width="160dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_marginLeft="170dp"-->
+        <!--android:background="?android:attr/selectableItemBackground"-->
+        <!--android:drawableLeft="@drawable/ne"-->
+        <!--android:drawablePadding="20dp"-->
+        <!--android:gravity="left|center"-->
+        <!--android:padding="10dp"-->
+        <!--android:text="NEW"-->
+        <!--android:textSize="20sp"-->
+        <!--android:visibility="invisible" />-->
+
+        <FrameLayout
+            android:id="@+id/frab"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_alignLeft="@+id/_dtladd"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <Button
+                    android:id="@+id/_dtladd"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/bg_red"
+                    android:drawablePadding="20dp"
+                    android:gravity="left|center"
+                    android:padding="10dp"
+                    android:text="@string/save"
+                    android:textSize="18sp" />
+
+                <SearchView
+                    android:id="@+id/_qtr1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@android:color/white"
+
+                    />
+                <!--<TextView-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_weight="0.57"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:text="Qty:"-->
+                <!--android:gravity="center|left"-->
+                <!--android:textColor="@color/material_blue_grey_800"-->
+                <!--android:layout_height="fill_parent" />-->
+                <!--<EditText-->
+                <!--android:id="@+id/_qtr"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="fill_parent"-->
+                <!--android:text="1"-->
+                <!--android:textColor="@color/bg"-->
+                <!--android:layout_weight="0.5"-->
+                <!--/>-->
+                <!--<TextView-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_weight="0.52"-->
+                <!--android:text="item no:"-->
+                <!--android:gravity="center|left"-->
+                <!--android:textColor="@color/material_blue_grey_800"-->
+                <!--android:layout_height="fill_parent" />-->
+                <!--<SearchView-->
+                <!--android:id="@+id/_qtr1"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="fill_parent"-->
+                <!--android:text=""-->
+                <!--android:textColor="@color/bg"-->
+                <!--android:layout_weight="0.38"-->
+                <!--/>-->
+                <!--<TextView-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_weight="0.52"-->
+                <!--android:text="discount %:"-->
+                <!--android:gravity="center|left"-->
+                <!--android:textColor="@color/material_blue_grey_800"-->
+                <!--android:layout_height="fill_parent" />-->
+                <!--<EditText-->
+                <!--android:id="@+id/_qtr2"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="fill_parent"-->
+                <!--android:text=""-->
+                <!--android:textColor="@color/bg"-->
+                <!--android:layout_weight="0.52"-->
+                <!--/>-->
+
+            </LinearLayout>
+            <!--</LinearLayout>-->
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/ntt"
+                android:layout_width="fill_parent"
+                android:layout_height="450dp"
+                android:background="@drawable/back"
+                android:layout_marginTop="60dp" />
+        </FrameLayout>
+
+        <SearchView
+            android:id="@+id/_itsearch"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/frab"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="0dp"
+            android:background="@android:color/white"
+            android:visibility="visible"></SearchView>
+
+
+        <include
+            android:id="@+id/sno"
+            layout="@layout/detail"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/_itsearch"
+            android:layout_marginTop="5dp" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/tdtddddd"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/sno"
+            android:layout_marginBottom="60dp"
+            android:background="@color/bg_e"
+            android:nestedScrollingEnabled="false"
+
+            />
+
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/visp"-->
+        <!--android:layout_below="@+id/_dtladd"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:visibility="gone"-->
+
+        <!--android:background="@color/bg_eo"-->
+        <!--android:layout_height="300dp">-->
+        <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/nt_tdt"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:layout_margin="5dp"-->
+        <!--/>-->
+
+        <!--</LinearLayout>-->
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/btmBar"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/back"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/_dtlcnl"
+            android:layout_width="180dp"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/ripple"
+            android:text="@string/cnl"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/_dtlcsave"
+            android:layout_width="180dp"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ripple"
+            android:text="SAVE "
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/_newsd"
+            android:layout_width="180dp"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ripple"
+            android:text="COPY ORDER "
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/_ttl"
+            android:layout_width="180dp"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:gravity="left|center"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+        <!--<Button-->
+        <!--android:id="@+id/amnd"-->
+        <!--android:layout_width="140dp"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:background="@drawable/ripple"-->
+        <!--android:text="ERP SUBMIT"-->
+        <!--android:textColor="@color/bg_red"-->
+        <!--android:textSize="18sp"-->
+        <!--android:visibility="visible" />-->
+
+
+    </LinearLayout>
+</RelativeLayout>

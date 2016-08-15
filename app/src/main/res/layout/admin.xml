@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:float="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:minWidth="400dp"
+    android:minHeight="400dp"
+    android:layout_margin="5dp"
+    android:background="@drawable/bg"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_margin="5dp"
+        android:textColor="@android:color/black"
+        android:text="Admin Login"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textSize="24sp"
+       android:background="@color/colorAccent"
+        android:layout_height="50dp" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:src="@drawable/ml2"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_margin="5dp"
+   android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="24sp"
+
+        android:layout_height="50dp" />
+
+    <com.wrapp.floatlabelededittext.FloatLabeledEditText
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="100dp">
+
+        <EditText
+            android:id="@+id/us1"
+            style="@style/scong_page"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:hint="username" />
+    </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+    <com.wrapp.floatlabelededittext.FloatLabeledEditText
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="100dp"
+        float:fletPaddingBottom="10dp">
+
+        <EditText
+            android:id="@+id/pass2"
+            android:text=""
+            style="@style/scong_page"
+            android:textColor="@android:color/black"
+            android:hint="password"
+            android:password="true" />
+    </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal"
+        android:weightSum="2.0">
+
+        <TextView
+            android:id="@+id/progressBarCircularIndeterminate"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="0dp"
+            android:gravity="center"
+            android:textSize="30sp"
+
+            android:layout_weight="0.8"
+            />
+
+        <!--<Button-->
+            <!--android:id="@+id/cdilo"-->
+            <!--style="@style/btn"-->
+            <!--android:textColor="@color/wht"-->
+            <!--android:background="@color/brn"-->
+            <!--android:layout_weight="0.7"-->
+            <!--android:text="" />-->
+
+        <Button
+            android:id="@+id/sdilog"
+            style="@style/btn"
+            android:textColor="@color/wht"
+            android:background="@color/brn"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.3"
+            android:textSize="40sp"
+            android:text="Login" />
+
+        <TextView
+            android:id="@+id/ss"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="0dp"
+            android:layout_weight="0.8"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_weight="0.8"
+        android:background="@color/black_overlay"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/exit"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp"
+        android:text="EXIT"
+        android:drawableLeft="@drawable/logut"
+        android:textColor="@android:color/white"
+        android:background="@color/black_overlay"
+        android:layout_weight="1"
+        android:drawablePadding="20dp"
+        android:gravity="left|center"
+        android:textSize="30sp"
+
+        />
+
+    <TextView
+        android:id="@+id/vrsion"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="0dp"
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:textColor="@color/wht"
+        android:gravity="center|right"
+        android:textSize="20sp"
+
+        />
+    </LinearLayout>
+</LinearLayout>

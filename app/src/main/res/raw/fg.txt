@@ -1,0 +1,97 @@
+﻿[{
+	"doc_no": "1001004",
+	"doc_date": "2015/12/10",
+	"doc_time": "19:19",
+	"str_doc_no": "",
+	"req_doc_no": "",
+	"vend_name": "3E GROUP PTE LTD",
+	"status": "N",
+	"Details":[{
+
+              	"s_no": "1",
+              	"item_id": "50",
+              	"item_no": "BVBVSY0012",
+              	"item_desc": "SYRUP - ESPRESSO SHOTS",
+              	"qty_in": "0.000000",
+              	"ref_qty_in": "1500.000000",
+              	"uom": "ML",
+              	"prod_date": "$ 20.00",
+              	"serial_lot_no": "",
+              	"from_wh_id": "10",
+              	"to_wh_id": "11"
+              }, {
+
+              	"s_no": "2",
+              	"item_id": "218",
+              	"item_no": "BVJUJU0011",
+              	"item_desc": "JUICE - PEEL FRESH YUZU (MARIGOLD)",
+              	"qty_in": "0.000000",
+              	"ref_qty_in": "1000.000000",
+              	"uom": "ML",
+              	"prod_date": "$ 14.99",
+              	"serial_lot_no": "",
+              	"from_wh_id": "10",
+              	"to_wh_id": "11"
+              }, {
+
+              	"s_no": "3",
+              	"item_id": "575",
+              	"item_no": "FDDRFL0003",
+              	"item_desc": "FLOUR - PLAIN (PKT/1KG)",
+              	"qty_in": "0.000000",
+              	"ref_qty_in": "1000.000000",
+              	"uom": "G",
+              	"prod_date": "$ 15.00",
+              	"serial_lot_no": "",
+              	"from_wh_id": "10",
+              	"to_wh_id": "11"
+              }]
+}, {
+	"doc_no": "1101005",
+	"doc_date": "2015/12/11",
+	"doc_time": "18:18",
+	"str_doc_no": "",
+	"req_doc_no": "",
+	"vend_name": "3E GROUP PTE LTD",
+	"status": "N",
+	"Details":[{
+
+                  	"s_no": "1",
+                  	"item_id": "50",
+                  	"item_no": "BVBVSY0012",
+                  	"item_desc": "SYRUP - ESPRESSO SHOTS",
+                  	"qty_in": "0.000000",
+                  	"ref_qty_in": "1500.000000",
+                  	"uom": "ML",
+                 	"prod_date": "$ 15.00",
+                  	"serial_lot_no": "",
+                  	"from_wh_id": "10",
+                  	"to_wh_id": "11"
+                  }, {
+
+                  	"s_no": "2",
+                  	"item_id": "218",
+                  	"item_no": "BVJUJU0011",
+                  	"item_desc": "JUICE - PEEL FRESH YUZU (MARIGOLD)",
+                  	"qty_in": "0.000000",
+                  	"ref_qty_in": "1000.000000",
+                  	"uom": "ML",
+                  	"prod_date": "$ 1.00",
+                  	"serial_lot_no": "",
+                  	"from_wh_id": "10",
+                  	"to_wh_id": "11"
+                  }, {
+
+                  	"s_no": "3",
+                  	"item_id": "575",
+                  	"item_no": "FDDRFL0003",
+                  	"item_desc": "FLOUR - PLAIN (PKT/1KG)",
+                  	"qty_in": "0.000000",
+                  	"ref_qty_in": "1000.000000",
+                  	"uom": "G",
+                  	"prod_date": "$ 55.00",
+                  	"serial_lot_no": "",
+                  	"from_wh_id": "10",
+                  	"to_wh_id": "11"
+                  }]
+}]

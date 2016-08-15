@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Activity.ItemviewActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/scndfrm"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="0dp">
+
+        <!--<include-->
+            <!--android:id="@+id/cdn"-->
+            <!--layout="@layout/order"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="40dp" />-->
+
+        <SearchView
+            android:id="@+id/scre"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:textColorHint="@color/wht"
+            android:layout_marginRight="70dp"
+            android:background="@color/fab_stroke_end_outer_color"
+            android:gravity="left|center"/>
+        <ImageView
+            android:id="@+id/refrsh"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="0dp"
+            android:background="@color/black_overlay"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/rdr"
+            />
+
+
+
+
+
+        <!--<SearchView-->
+            <!--android:id="@+id/sosrch"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="60dp"-->
+            <!--android:layout_below="@+id/cdn"-->
+            <!--android:gravity="left|center"/>-->
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/_master"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/scre"
+            android:layout_marginBottom="65dp"
+android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/bg_e"
+            android:nestedScrollingEnabled="false"
+            android:visibility="visible" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/_details"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/scre"
+            android:background="@drawable/back"
+            android:layout_marginBottom="65dp"
+            android:nestedScrollingEnabled="false"
+            android:visibility="gone" />
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/back"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/home"
+                android:layout_width="180dp"
+                android:layout_height="fill_parent"
+                android:layout_margin="5dp"
+
+                android:text="LOG out"
+                android:drawableLeft="@drawable/logut"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+
+            <Button
+                android:id="@+id/_newitm"
+                android:layout_width="180dp"
+                android:layout_height="fill_parent"
+                android:layout_margin="5dp"
+                android:text="NEW ORDER"
+                android:drawableLeft="@drawable/nw"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/amnd"
+                android:layout_width="185dp"
+                android:layout_height="fill_parent"
+                android:layout_margin="5dp"
+                android:text="ERP SUBMIT"
+                android:textColor="@color/material_blue_grey_800"
+                android:textSize="18sp"
+                android:drawableLeft="@drawable/sub"
+                android:drawablePadding="5dp"
+                android:visibility="visible" />
+
+
+            <Button
+                android:id="@+id/erps"
+                android:layout_width="190dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:text="SALES ORDERS"
+                android:textSize="18sp"
+                android:visibility="visible" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <!--</ScrollView>-->
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+    <!--android:id="@+id/fab"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="1090dp"-->
+    <!--android:layout_marginTop="170dp"-->
+    <!--android:src="@android:drawable/arrow_up_float"-->
+    <!--android:visibility="visible" />-->
+
+
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/nerel"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        android:background="@color/bg">
+
+
+        <SearchView
+            android:id="@+id/nesrc"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="3dp"
+            android:background="@android:color/white"
+            android:visibility="visible"></SearchView>
+
+
+        <Button
+            android:id="@+id/necls"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="3dp"
+            android:background="@drawable/ripplet"
+            android:drawableLeft="@android:drawable/ic_menu_close_clear_cancel"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:visibility="visible" />
+
+        <include
+            android:id="@+id/nesno"
+            layout="@layout/detail"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@+id/nesrc" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/netdt"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/nesno"
+            android:layout_margin="5dp"
+            android:background="@android:color/white" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/ripple"
+            android:text="@string/cnl"
+            android:textColor="@color/bg_red"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/nent_amnd"
+            android:layout_width="140dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ripple"
+            android:text="ADD ITEM"
+            android:textColor="@color/bg_red"
+            android:textSize="18sp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+</RelativeLayout>
